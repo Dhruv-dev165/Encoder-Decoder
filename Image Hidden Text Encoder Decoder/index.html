@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Hidden Text Encoder/Decoder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Image Hidden Text Encoder/Decoder</h1>
+
+    <h3>Step 1: Choose an Image</h3>
+    <input type="file" id="imageInput" accept="image/*">
+    <img id="imagePreview" alt="Image preview" style="display:none;">
+
+    <h3>Step 2: Enter Text to Hide</h3>
+    <textarea id="hiddenText" rows="4" placeholder="Enter text to hide..."></textarea>
+    <button id="encodeButton">Encode Text</button>
+
+    <h3>Step 3: Decode Text</h3>
+    <button id="decodeButton">Decode Hidden Text</button>
+
+    <canvas id="canvas" style="display:none;"></canvas>
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
