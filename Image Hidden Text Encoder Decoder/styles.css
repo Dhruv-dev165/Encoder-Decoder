@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+#imagePreview, canvas {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
+    background: #f9f9f9;
+    word-wrap: break-word;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
